@@ -1,6 +1,6 @@
 # Orbital Rescue: working concept document
 
-This repository-local working draft is seeded from the supplied [Candidate Concept_1.pptx](References/Candidate%20Concept_1.pptx). It is a starting document for A0, not a claim that the final A0 has been completed or submitted. If the group already maintains a shared A0 document, replace the README link with that URL.
+Working draft based on [Candidate Concept_1.pptx](References/Candidate%20Concept_1.pptx). Project scope and interaction design will be refined during the course.
 
 ## Internal project name
 Orbital Rescue / 轨道救援
@@ -22,5 +22,5 @@ A1 supplies a desktop walkthrough through an editable primitive blockout. It est
 ## Current spatial reference
 [Dimensioned A1 plan](References/blockout-plan.png). Dimensions are authored prototype choices derived from the supplied concept's three-zone sequence.
 
-## Decisions still owned by the group
-Finalize the A0 template, research/references, team responsibilities, interaction details, usability criteria and later milestone planning in the group's official working document. The supplied deck's proposed schedule is concept context; consult the course page for assignment deadlines.
+## Remaining design work
+Complete research references, team responsibilities, interaction details, usability criteria and milestone planning. Assignment dates follow the course schedule.

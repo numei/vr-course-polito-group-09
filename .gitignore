@@ -110,5 +110,4 @@ InitTestScene*.unity*
 
 # Local A1 verification and OS files
 /TestResults/
-.superpowers/
 .DS_Store

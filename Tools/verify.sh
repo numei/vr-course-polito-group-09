@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 project_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-unity_editor="${UNITY_EDITOR:-/Applications/Unity/Hub/Editor/6000.4.4f1/Unity.app/Contents/MacOS/Unity}"
+unity_editor="${UNITY_EDITOR:-${1:-Unity}}"
 results_dir="${RESULTS_DIR:-$project_root/TestResults}"
 mkdir -p "$results_dir"
-if [[ ! -x "$unity_editor" ]]; then
-  echo "Set UNITY_EDITOR to the Unity 6000.4.4f1 executable." >&2
+if ! command -v "$unity_editor" >/dev/null 2>&1; then
+  echo "Set UNITY_EDITOR to the Unity executable, or pass it as the first argument." >&2
   exit 1
 fi
 for platform in EditMode PlayMode; do
