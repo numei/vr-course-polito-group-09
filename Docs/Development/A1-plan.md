@@ -47,4 +47,4 @@
 - [x] Run import, full EditMode/PlayMode suites and visual checks, inspect outputs.
 - [x] Review source and requirements, resolve material issues.
 - [x] Commit on assignment-1; clone into a fresh empty directory and run import/tests without the existing Library.
-- [ ] Push assignment-1 and verify GitHub SHA if available. Record collaborator/A0 status and all remaining external requirements in final checklist.
+- [x] Push assignment-1 and verify GitHub SHA if available. Record collaborator/A0 status and all remaining external requirements in final checklist.
