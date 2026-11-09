@@ -5,7 +5,7 @@ Checked against the full [official A1 page](https://cgvg-polito.notion.site/A1-3
 | Official requirement | Status | Evidence / remaining action |
 | --- | --- | --- |
 | Repository named `vr-course-polito-group-XX` | PASS | `numei/vr-course-polito-group-09`, confirmed using GitHub repository metadata. |
-| Teacher `francescoStrada` added as collaborator | UNVERIFIED | GitHub connector returned 403 for collaborator permissions; browser has no signed-in session. Repository owner must check Settings → Collaborators and add/confirm the teacher. No invitation has been sent by this implementation. |
+| Teacher `francescoStrada` added as collaborator | UNVERIFIED | GitHub connector returned 403 for collaborator permissions. A browser check could open the authenticated repository settings but did not establish the teacher membership before browser control changed. Repository owner must check Settings → Collaborators and add/confirm the teacher. No invitation has been sent by this implementation. |
 | Branch `assignment-1` | PASS | Local and GitHub branch `assignment-1` exist. First pushed revision `d398376768b7262715e6b75126cdf371453e30b3` matched `git ls-remote` on 9 Nov 2026 at 17:17 Europe/Rome. |
 | Unity project at repository root | PASS | Root `Assets/`, `Packages/`, `ProjectSettings/`. |
 | README includes internal project name and synopsis | PASS | Orbital Rescue, intended astronaut maintenance / debris-removal experience. |
