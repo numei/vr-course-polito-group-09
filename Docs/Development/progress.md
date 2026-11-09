@@ -12,3 +12,9 @@ Scene tests: 4/4 passed. Initial PlayMode run: 3/8 passed because batch mode rou
 
 Visual review: first rendered draft exposed oversized world-space TextMesh labels drawing across geometry. Removed world labels and used the existing screen legend for zone identity; geometry remains simple. This is a visual correction, not an art pass.
 Full verification after correction: 4/4 EditMode and 10/10 PlayMode passed, including focus loss and 30/120 FPS stick speed. A0 link points to a clearly labelled local working draft seeded from supplied PPT because no shared document URL has been provided.
+
+Task 1: complete — editable scene, reference images, saved prefab, editor acceptance.
+Task 2: complete — Input System actions and controller, 10 passing runtime behaviors.
+Task 3: fresh clone 08acb39 verified 14/14 with no Library, native Editor opened Blockout and entered Play. Native keyboard walk could not be asserted because automation loses its window connection on pointer capture; real device-event movement tests remain passing.
+Final review: independent, no Critical/Important issues. Deferred minors: capture helper has no save prompt (README warns to save); copied URP default volume profile has unused missing Outline/Oasis subassets that URP prunes.
+Builder judgment: provide repository-local A0 draft rather than invent a shared URL; group may replace link later. External teacher collaborator remains unverified due 403/unauthenticated browser.

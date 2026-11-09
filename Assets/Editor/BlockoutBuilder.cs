@@ -22,6 +22,14 @@ namespace OrbitalRescue.Editor
             Build();
         }
 
+        [MenuItem("Orbital Rescue/Open A1 Walkthrough")]
+        public static void OpenWalkthrough()
+        {
+            if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
+            EditorSceneManager.OpenScene(ScenePath);
+            EditorApplication.ExecuteMenuItem("Window/General/Game");
+        }
+
         public static void Build()
         {
             foreach (var path in new[] {"Assets/Materials", "Assets/Prefabs", "Assets/Scenes"}) Directory.CreateDirectory(path);
