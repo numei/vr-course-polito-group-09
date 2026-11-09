@@ -1,0 +1,4 @@
+{
+  "name": "OrbitalRescue.Runtime",
+  "references": ["Unity.InputSystem"]
+}

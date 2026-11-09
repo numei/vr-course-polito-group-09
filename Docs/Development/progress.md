@@ -1,0 +1,14 @@
+# A1 implementation progress
+
+Plan: A1-plan.md. Initial repository: 75b9238. Existing clean branch: assignment-1.
+
+Decision: work in the user's existing assignment-1 checkout; it has no Unity files or user modifications to isolate. No extra worktree is needed for this repository bootstrap.
+Decision: use installed Unity 6.4 and custom controller, which satisfy A1's Unity 6.3-or-newer and new Input System requirements.
+Decision: scale is an authored blockout plan derived from the PPT's three-zone layout, not a measured real station or a claim that the PPT contained dimensions.
+Pre-flight: Task 1 scene path and Task 2 loader both use Assets/Scenes/Blockout.unity. Task 3 tests consume the saved scene rather than invoking a runtime environment generator.
+Status: project settings scaffold copied from installed official URP template; new Input System only. References and tests next.
+
+Scene tests: 4/4 passed. Initial PlayMode run: 3/8 passed because batch mode routed keyboard/mouse to editor. Diagnostic proved focus=False, controller captured=True, virtual W=0. Unity InputSettings source documents this default. Test fixture now routes virtual devices to the game, restores settings at teardown. No product workaround. Full PlayMode run: 8/8 passed.
+
+Visual review: first rendered draft exposed oversized world-space TextMesh labels drawing across geometry. Removed world labels and used the existing screen legend for zone identity; geometry remains simple. This is a visual correction, not an art pass.
+Full verification after correction: 4/4 EditMode and 10/10 PlayMode passed, including focus loss and 30/120 FPS stick speed. A0 link points to a clearly labelled local working draft seeded from supplied PPT because no shared document URL has been provided.

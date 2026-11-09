@@ -1,0 +1,6 @@
+{
+  "name": "OrbitalRescue.EditorTests",
+  "references": ["Unity.InputSystem"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}

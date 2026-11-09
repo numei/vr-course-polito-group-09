@@ -1,0 +1,5 @@
+{
+  "name": "OrbitalRescue.PlayTests",
+  "references": ["Unity.InputSystem"],
+  "optionalUnityReferences": ["TestAssemblies"]
+}
