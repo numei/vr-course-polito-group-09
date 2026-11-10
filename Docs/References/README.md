@@ -1,6 +1,6 @@
 # Reference provenance and scene mapping
 
-The unmodified supplied `Candidate Concept_1.pptx` is the project concept source. Slide 2 specifies the sequence Interior Mission Area / Airlock / Exterior Maintenance Area and the major props.
+The supplied concept deck, `Candidate Concept_1.pptx`, is the project concept source. Slide 2 specifies the sequence Interior Mission Area / Airlock / Exterior Maintenance Area and the major props. The relevant images are included below; the original deck is maintained separately.
 
 - `blockout-plan.png`: group-09 blockout layout authored for A1 on 2026-11-09, based on that sequence. Scale and dimensions are proposed design decisions, not measurements from the supplied deck. This is the primary spatial reference used to build the scene.
 - `concept-hatch.png`: extracted verbatim from the supplied deck (ppt/media/image1.png), visual cue for framed hatches.

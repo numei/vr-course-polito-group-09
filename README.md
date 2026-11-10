@@ -4,7 +4,7 @@ Politecnico di Torino · Virtual Reality 2026/2027 · Group 09
 
 An astronaut restores a debris-damaged space station. The intended five-to-ten-minute VR experience follows a mission briefing, an airlock transition, debris collection and power-interface repair. A1 establishes the environment layout through a desktop first-person walkthrough.
 
-[A0 working document](Docs/A0-working-document.md) · [Concept deck](Docs/References/Candidate%20Concept_1.pptx) · [Project structure and module guide / 项目结构详解](Docs/Architecture.md)
+[A0 working document](https://docs.google.com/document/d/1Pux0m5rE4q6pS4W2nduYv1G0DQx8AVyatSrTpV7JYqw/edit?tab=t.0#heading=h.nauhafqlymq3) · [References and floor plan](Docs/References/README.md)
 
 ## Run
 
@@ -42,26 +42,14 @@ Equipment and debris are static blockout placeholders. VR locomotion, grabbing, 
 | `Assets/Input` | New Input System action asset |
 | `Assets/Materials` | Flat blockout materials |
 | `Assets/Settings` | URP renderers, quality pipelines and volume defaults |
-| `Assets/Tests` | EditMode scene checks and PlayMode controller tests |
 | `Packages` | Package manifest and dependency lockfile |
 | `ProjectSettings` | Unity project configuration |
-| `Docs` | Concept, references, architecture and A1 checklist |
-| `Tools` | Portable command-line test runner |
+| `Docs` | Reference images, floor plan and scene overview |
 
 The project uses **Input System Package (New)** only. Scene geometry is not generated at runtime. Edit the scene in Unity; edit shared player settings through `Player.prefab`.
 
-## Tests
-
-Use **Window → General → Test Runner** to run EditMode and PlayMode tests. For batch execution, close the Unity instance using the same project and run:
-
-```bash
-UNITY_EDITOR="/path/to/Unity" ./Tools/verify.sh
-```
-
-The command-line runner requires Bash and Python 3. Results are written to ignored `TestResults/`. Unity-generated caches, build output and local editor settings are not committed.
-
 ## Course delivery
 
-[A1 checklist](Docs/A1-checklist.md) · [A1 assignment](https://cgvg-polito.notion.site/A1-3edc27e51e0f8189bbbcfec70f0194d8) · [Course page](https://cgvg-polito.notion.site/Virtual-Reality-2026-2027-5cac27e51e0f83db85bc812337ddbccd)
+[A1 assignment](https://cgvg-polito.notion.site/A1-3edc27e51e0f8189bbbcfec70f0194d8) · [Course page](https://cgvg-polito.notion.site/Virtual-Reality-2026-2027-5cac27e51e0f83db85bc812337ddbccd)
 
 A1 is delivered on `assignment-1`; the deadline is **15 November 2026, 23:59 Europe/Rome**. Verify the pushed commit on GitHub. The teacher `francescoStrada` must be a repository collaborator. Use another branch for work after the deadline.
