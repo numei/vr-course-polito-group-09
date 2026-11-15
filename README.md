@@ -1,6 +1,6 @@
 # Orbital Rescue
 
-Politecnico di Torino · Virtual Reality 2026/2027 · Group 09
+vr-course-polito-group-09
 
 An astronaut restores a debris-damaged space station. The intended five-to-ten-minute VR experience follows a mission briefing, an airlock transition, debris collection and power-interface repair. A1 establishes the environment layout through a desktop first-person walkthrough.
 
@@ -27,8 +27,6 @@ An astronaut restores a debris-damaged space station. The intended five-to-ten-m
 ![Blockout overview](Docs/Overview.png)
 
 One Unity unit equals one metre. The mission area is 8×12 m, the airlock 4×4 m and the exterior deck 12×12 m. The open hatches provide 2.4×2.6 m clearance. The player capsule is 1.8 m high, with the camera 1.65 m above its origin. Walking speed is 2.5 m/s; sprint speed is 4.5 m/s.
-
-The scene uses **Unity primitives, not ProBuilder**. Geometry is saved in the scene and can be edited directly in the Hierarchy and Inspector. See [reference images, floor plan and scene mapping](Docs/blockout-plan.png).
 
 Equipment and debris are static blockout placeholders. VR locomotion, grabbing, interactive doors, repair logic, sound and final art are later milestones. The exterior deck is an A1 walking aid.
 
