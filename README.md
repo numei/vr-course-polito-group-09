@@ -24,7 +24,7 @@ An astronaut restores a debris-damaged space station. The intended five-to-ten-m
 
 ## Environment
 
-![Blockout overview](Docs/Screenshots/Overview.png)
+![Blockout overview](Docs/Overview.png)
 
 One Unity unit equals one metre. The mission area is 8×12 m, the airlock 4×4 m and the exterior deck 12×12 m. The open hatches provide 2.4×2.6 m clearance. The player capsule is 1.8 m high, with the camera 1.65 m above its origin. Walking speed is 2.5 m/s; sprint speed is 4.5 m/s.
 
